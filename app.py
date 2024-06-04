@@ -12,4 +12,3 @@ print("Api running on port : {} ".format(port)
 @app.route('/')
 def home():
    return "Hello world"
-
