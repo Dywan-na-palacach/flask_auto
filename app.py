@@ -1,7 +1,6 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
-import sys
-import os
+import sys, os
 
 app = Flask(__name__)
 api = Api(app)
@@ -11,6 +10,4 @@ print("Api running on port : {} ".format(port)
       
 @app.route('/')
 def home():
-   return "Hello world"
-
-      
+   return "Hello world"    
