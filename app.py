@@ -10,8 +10,6 @@ port = 5100
 print("Api running on port : {} ".format(port)
       
 @app.route('/')
-def hello_world():
-    return 'hello world'
+def home():
+   return "hello world"
 
-if __name__ == '__main__':
-    app.run(debug=True)
